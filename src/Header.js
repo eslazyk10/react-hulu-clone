@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from "./images/hulu-logo-transparent.png";
 import FlashOnIcon from '@mui/icons-material/FlashOn';
 import HomeIcon from '@mui/icons-material/Home';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
@@ -37,7 +38,7 @@ function Header() {
                     <p>Account</p>
                 </div> 
             </div>
-            <img src="https://logos-world.net/wp-content/uploads/2020/11/Hulu-Emblem-700x394.jpg" alt="" />
+            <img src={Logo} alt="Hulu Logo" />
         </div>
     )
 }
