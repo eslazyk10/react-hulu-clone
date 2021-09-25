@@ -1,11 +1,19 @@
 .header{
     color: rgba(255, 255, 255, 0.8);
     display: flex;
-    background-color: black;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
     overflow-x: scroll;
+}
+
+.header::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .header__icon > .MuiSvgIcon-root{
