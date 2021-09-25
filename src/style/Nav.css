@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    color: white;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+    align-items: center;
+}
+
+.nav::-webkit-scrollbar{
+    display: none;
+}
+
+.nav{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.nav > h2{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: transform 50ms ease-out;
+    padding: 15px;
+}
+
+.nav__fit1{
+    min-width: 110px;
+}
+
+.nav__fit2{
+    min-width: 55px;
+}
+
+.nav > h2:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}

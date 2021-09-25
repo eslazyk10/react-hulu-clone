@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 
-import "./Header.css";
+import "./style/Header.css";
 
 function Header() {
     return (
